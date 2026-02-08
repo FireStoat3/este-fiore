@@ -1,0 +1,73 @@
+/* MAIN */
+
+main img {
+    max-width: 100%;
+}
+
+main ul#placeList {
+    width: 100vw;
+    padding: 0;
+}
+
+main ul#placeList li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1em;
+    border: 1px solid var(--borderColor);
+    margin: 1em 0.5em;
+    border-radius: var(--borderRadius);
+}
+
+/* PLACE ITEMS */
+
+main label {
+    width: 100%;
+    text-align: left;
+    background-image: url("../icons/mdi--menu-open.svg");
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+
+main input#place1:checked ~ label#place1Label {
+    background-image: url("../icons/line-md--menu-to-close-transition.svg");
+}
+
+main input#place1:checked ~ div#place1Div {
+    display: block;
+}
+
+main input#place2:checked ~ label#place2Label {
+    background-image: url("../icons/line-md--menu-to-close-transition.svg");
+}
+
+main input#place2:checked ~ div#place2Div {
+    display: block;
+}
+
+main input#place3:checked ~ label#place3Label {
+    background-image: url("../icons/line-md--menu-to-close-transition.svg");
+}
+
+main input#place3:checked ~ div#place3Div {
+    display: block;
+}
+
+/* PLACE DIV */
+
+div.placeDiv {
+    text-align: left;
+    padding: 1em;
+    flex-basis: 100%;
+    display: none;
+}
+
+div.placeDiv img {
+    max-width: 60%;
+}
+
+div.placeDiv a {
+    display: block;
+    text-align: center;
+}

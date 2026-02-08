@@ -1,0 +1,102 @@
+:root {
+    --headerBackgroundColor: #ac3434;
+    --headerTextColor: white;
+    --borderColor: black;
+    --borderRadius: 20px;
+}
+
+/* ANIMATION */
+
+/* GENERAL */
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.hideElement {
+    position: absolute;
+    left: -999em;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--headerBackgroundColor);
+    color: var(--headerTextColor);
+    padding: 1em 0.5em;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header input[type=checkbox] {
+    padding: 0;
+}
+
+header label {
+    margin: 0 0 0 auto;
+    background-image: url("../icons/mdi--menu.svg");
+    background-size: 100% 100%;
+    width: 2em;
+    height: 2em;
+}
+
+/* AREA MENU */
+
+header nav#areaMenu {
+    position: sticky;
+    display: none;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+header nav#areaMenu li {
+    list-style-type: none;
+}
+
+header input:checked ~ nav#areaMenu {
+    display: block;
+}
+
+header input:checked ~ label {
+    background-image: url("../icons/line-md--menu-to-close-transition_white.svg");
+}
+
+header nav#areaMenu {
+    width: 100%;
+    border-top: 1px solid var(--borderColor);
+}
+
+header nav#areaMenu a {
+    color: var(--headerTextColor);
+    text-decoration-color: var(--headerTextColor)
+}
+
+header nav#areaMenu a:visited {
+    text-decoration-color: var(--headerBackgroundColor)
+}
+
+/* MAIN */
+
+main {
+    display: block;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1em;
+}
