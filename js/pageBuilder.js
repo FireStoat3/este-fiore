@@ -1,0 +1,102 @@
+window.onload = async () => {
+    const baseUrl = window.location.origin;
+    const areaFile = await recoverAreaFile(baseUrl);
+    buildMenu(areaFile, baseUrl)
+
+    const url = window.location.href
+    if (url.includes("area.html")) {
+        const params = new URLSearchParams(window.location.search);
+        const areaName = params.get("area")
+        buildAreaPage(baseUrl,areaFile,areaName)
+    } else if (url.includes("place.html")) {
+        const placeFile = await recoverPlaceFile(baseUrl)
+        const params = new URLSearchParams(window.location.search);
+        const areaName = params.get("area")
+        const placeName = params.get("place")
+        buildPlacePage(placeFile,areaName,placeName)
+    }
+}
+
+const recoverAreaFile = async (baseUrl) => {
+    const file = await fetch(baseUrl+"/json/area.json").then(async (file)=> {
+        return await file.json()
+    })
+    return file
+}
+
+const recoverPlaceFile = async (baseUrl) => {
+    const file = await fetch(baseUrl+"/json/place.json").then(async (file)=> {
+        return await file.json()
+    })
+    return file
+}
+
+const buildMenu = async (areaFile, baseUrl) => {
+    const keys = Object.keys(areaFile);
+    let list = ""
+    await keys.forEach((key)=> {
+        list+=`<li><a href="${baseUrl}/pages/area.html?area=${key}">${key}</a></li>`
+    })
+
+    document.body.innerHTML = document.body.innerHTML.replace("{{MENU_LINK}}", list);
+}
+
+const buildPlacePage = async (placeFile,areaName,placeName) => {
+    const place = placeFile[areaName][placeName]
+    const breadcrumbList = `<li>></li><li><a href="./area.html?area=${areaName}">${areaName}</a></li><li>></li><li>${placeName}</li>`
+    document.body.innerHTML = document.body.innerHTML.replace("{{BREADCRUMB_ITEMS}}", breadcrumbList);
+    document.body.innerHTML = document.body.innerHTML.replace("{{PLACE_TITLE}}", placeName);
+    if (place) {
+        const sections = Object.keys(place)
+        let placePage = ""
+        sections.forEach((sectionName) => {
+            placePage += `<h3>${sectionName}</h3>`
+            const sectionInfo = place[sectionName]
+            const image = sectionInfo.image
+            if(image) {
+                placePage+= `<img src="${image}">`
+            }
+            placePage += `<p>${sectionInfo.description}</p>`
+        })
+        document.body.innerHTML = document.body.innerHTML.replace("{{PLACE_CONTENT}}", placePage);
+    } else {
+        console.log("nope") //TODO redirect to 404
+    }
+}
+
+const buildAreaPage = async (baseUrl,areaFile,areaName) => {
+    const area = areaFile[areaName]
+    const breadcrumbList = `<li>></li><li>${areaName}</li>`
+    document.body.innerHTML = document.body.innerHTML.replace("{{BREADCRUMB_ITEMS}}", breadcrumbList);
+    if (area) {
+        document.body.innerHTML = document.body.innerHTML.replace("{{AREA_TITLE}}", areaName);
+        document.body.innerHTML = document.body.innerHTML.replace("{{AREA_IMAGE}}", area["image"]);
+        document.body.innerHTML = document.body.innerHTML.replace("{{AREA_DESCRIPTION}}", area["description"]);
+        const areaPlaces = Object.keys(area["places"])
+        console.log(areaPlaces)
+        let placeList = ""
+        let i = 1
+        await areaPlaces.forEach((placeName) => {
+            const currentPlace = area["places"][placeName]
+            placeList+=`<li>
+                <input type="checkbox" id="place${i}" class="hideElement placeInput">
+                <label class="placeLabel" for="place${i}" id="place${i}Label">${placeName}</label>
+                <div class="placeDiv" id="place${i}Div" role="alert">
+                    <img alt="placeholder" src="../images/${currentPlace["image"]}">
+                    <p>${currentPlace["description"]}</p>
+                    <a href="${baseUrl}/pages/place.html?area=${areaName}&place=${placeName}">Visualizza dettagli</a>
+                </div>
+            </li>`;
+            i+=1
+        })
+        document.body.innerHTML = document.body.innerHTML.replace("{{PLACE_LIST}}", placeList);
+        i=1
+        await areaPlaces.forEach((placeName) => {
+            let item = document.getElementById(`place${i}`)
+            item.style.cssText = ""
+            i+=1
+        })
+    } else {
+        console.log("nope") //TODO redirect to 404
+    }
+}

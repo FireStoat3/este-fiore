@@ -30,27 +30,11 @@ main label {
     background-repeat: no-repeat;
 }
 
-main input#place1:checked ~ label#place1Label {
+main input.placeInput:checked ~ label.placeLabel {
     background-image: url("../icons/line-md--menu-to-close-transition.svg");
 }
 
-main input#place1:checked ~ div#place1Div {
-    display: block;
-}
-
-main input#place2:checked ~ label#place2Label {
-    background-image: url("../icons/line-md--menu-to-close-transition.svg");
-}
-
-main input#place2:checked ~ div#place2Div {
-    display: block;
-}
-
-main input#place3:checked ~ label#place3Label {
-    background-image: url("../icons/line-md--menu-to-close-transition.svg");
-}
-
-main input#place3:checked ~ div#place3Div {
+main input.placeInput:checked ~ div.placeDiv {
     display: block;
 }
 

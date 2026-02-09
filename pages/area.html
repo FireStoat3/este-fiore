@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="../css/area.css">
         <!--JS-->
-        <script src="../js/areaBuilder.js"></script>
+        <script src="../js/pageBuilder.js"></script>
     </head>
     <body>
         <header>
@@ -22,7 +22,15 @@
            <label for="menu"><span class="hideElement">Visualizza zone</span></label>
            <nav id="areaMenu" role="alert">
                 <ul>
+                    <li lang="en"><a href="./../index.html">Home</a></li>
                     {{MENU_LINK}}
+                </ul>
+            </nav>
+            <nav id="breadcrumb">
+                <p>Ti trovi in:</p>
+                <ul>
+                    <li><a href="./../index.html">Home</a></li>
+                    {{BREADCRUMB_ITEMS}}
                 </ul>
             </nav>
         </header>

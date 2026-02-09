@@ -60,6 +60,13 @@ header nav#areaMenu {
     display: none;
     flex-basis: 100%;
     text-align: center;
+    border-top: 1px solid var(--borderColor);
+    border-bottom: 1px solid var(--borderColor);
+}
+
+header nav#areaMenu ul {
+    padding: 1em 0;
+    margin: 0;
 }
 
 header nav#areaMenu li {
@@ -74,11 +81,6 @@ header input:checked ~ label {
     background-image: url("../icons/line-md--menu-to-close-transition_white.svg");
 }
 
-header nav#areaMenu {
-    width: 100%;
-    border-top: 1px solid var(--borderColor);
-}
-
 header nav#areaMenu a {
     color: var(--headerTextColor);
     text-decoration-color: var(--headerTextColor)
@@ -86,6 +88,28 @@ header nav#areaMenu a {
 
 header nav#areaMenu a:visited {
     text-decoration-color: var(--headerBackgroundColor)
+}
+
+/* BREADCRUMB */
+
+header nav#breadcrumb {
+    flex-basis: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav#breadcrumb ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 0.3em;
+}
+
+header nav#breadcrumb li {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 0.5em;
 }
 
 /* MAIN */
