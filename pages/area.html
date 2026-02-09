@@ -12,6 +12,8 @@
         <!--CSS-->
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="../css/area.css">
+        <!--JS-->
+        <script src="../js/areaBuilder.js"></script>
     </head>
     <body>
         <header>
@@ -20,44 +22,16 @@
            <label for="menu"><span class="hideElement">Visualizza zone</span></label>
            <nav id="areaMenu" role="alert">
                 <ul>
-                    <li><a href="./../index.html">Menu principale</a></li>
-                    <li><a href="">Area 2</a></li>
-                    <li><a href="">Area 3</a></li>
+                    {{MENU_LINK}}
                 </ul>
             </nav>
         </header>
         <main>
-            <h2>Area 1</h2>
-            <img alt="placeholder" src="../images/placeholder.svg">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda veniam suscipit maiores, enim repellendus, at voluptatem dolores eius fugit culpa tenetur aliquid beatae cum tempore laudantium voluptates sequi, ut mollitia.</p>
+            <h2>{{AREA_TITLE}}</h2>
+            <img alt="placeholder" src="../images/{{AREA_IMAGE}}">
+            <p>{{AREA_DESCRIPTION}}</p>
             <ul id="placeList">
-                <li>
-                    <input type="checkbox" id="place1" class="hideElement">
-                    <label for="place1" id="place1Label">Visualizza luogo 1</label>
-                    <div class="placeDiv" id="place1Div" role="alert">
-                        <img alt="placeholder" src="../images/placeholder.svg">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?</p>
-                        <a href="">Visualizza dettagli</a>
-                    </div>
-                </li>
-                <li>
-                    <input type="checkbox" id="place2" class="hideElement">
-                    <label for="place2" id="place2Label">Visualizza luogo 2</label>
-                    <div class="placeDiv" id="place2Div" role="alert">
-                        <img alt="placeholder" src="../images/placeholder.svg">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?</p>
-                        <a href="">Visualizza dettagli</a>
-                    </div>
-                </li>
-                <li>
-                    <input type="checkbox" id="place3" class="hideElement">
-                    <label for="place3" id="place3Label">Visualizza luogo 3</label>
-                    <div class="placeDiv" id="place3Div" role="alert">
-                        <img alt="placeholder" src="../images/placeholder.svg">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?</p>
-                        <a href="">Visualizza dettagli</a>
-                    </div>
-                </li>
+                {{PLACE_LIST}}
             </ul>
         </main>
         <footer>

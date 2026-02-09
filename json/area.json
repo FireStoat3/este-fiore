@@ -1,0 +1,56 @@
+{
+    "Area1": {
+        "image": "placeholder.svg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?",
+        "places": {
+            "luogo1": {
+            "image": "placeholder.svg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+            },
+            "luogo2": {
+                "image": "placeholder.svg",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+            },
+            "luogo3": {
+                "image": "placeholder.svg",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+            }
+        }
+    },
+    "Area2": {
+        "image": "placeholder.svg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?",
+        "places": {
+            "luogo1": {
+            "image": "placeholder.svg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+            },
+            "luogo2": {
+                "image": "placeholder.svg",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+            },
+            "luogo3": {
+                "image": "placeholder.svg",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+            }
+        }
+    },
+    "Area3": {
+        "image": "placeholder.svg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?",
+        "places": {
+            "luogo1": {
+            "image": "placeholder.svg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+            },
+            "luogo2": {
+                "image": "placeholder.svg",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+            },
+            "luogo3": {
+                "image": "placeholder.svg",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+            }
+        }
+    }
+}
