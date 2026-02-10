@@ -9,6 +9,11 @@
 
 /* GENERAL */
 
+html {
+    overflow-x: hidden;
+    scrollbar-width: thin;
+}
+
 html, body {
     padding: 0;
     margin: 0;
@@ -73,6 +78,14 @@ header nav#areaMenu li {
     list-style-type: none;
 }
 
+header nav#areaMenu li.currentPage::before {
+    content: "- ";
+}
+
+header nav#areaMenu li.currentPage::after {
+    content: " -";
+}
+
 header input:checked ~ nav#areaMenu {
     display: block;
 }
@@ -83,11 +96,12 @@ header input:checked ~ label {
 
 header nav#areaMenu a {
     color: var(--headerTextColor);
-    text-decoration-color: var(--headerTextColor)
+    text-decoration-color: var(--headerTextColor);
+    border-bottom: 1px solid var(--headerTextColor)
 }
 
 header nav#areaMenu a:visited {
-    text-decoration-color: var(--headerBackgroundColor)
+    border-bottom: 1px solid  var(--headerBackgroundColor)
 }
 
 /* BREADCRUMB */
@@ -110,6 +124,16 @@ header nav#breadcrumb li {
     display: inline-block;
     list-style-type: none;
     padding-left: 0.5em;
+}
+
+header nav#breadcrumb a {
+    color: var(--headerTextColor);
+    text-decoration-color: var(--headerTextColor);
+    border-bottom: 1px solid var(--headerTextColor)
+}
+
+header nav#breadcrumb a:visited {
+    border-bottom: 1px solid  var(--headerBackgroundColor)
 }
 
 /* MAIN */
