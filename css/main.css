@@ -1,17 +1,32 @@
 :root {
-    --headerBackgroundColor: #ac3434;
+    --backgroundColor: #FFCF99;
+    --headerBackgroundColor: #721121;
     --headerTextColor: white;
     --borderColor: black;
-    --borderRadius: 20px;
+    --footerBackgroundColor: black;
+    --footerTextColor: white;
+    --headerBorderRadius: 14px;
+    --mainTextColor: black;
 }
 
 /* ANIMATION */
+
+@keyframes menuOpening {
+  from {max-height: 0;}
+  to {max-height: 700px; visibility: visible;}
+}
+
+@keyframes menuClosing {
+  from {max-height: 700px;}
+  to {max-height: 0; visibility: hidden;}
+}
 
 /* GENERAL */
 
 html {
     overflow-x: hidden;
     scrollbar-width: thin;
+    background-color: var(--backgroundColor);
 }
 
 html, body {
@@ -21,6 +36,12 @@ html, body {
 
 body {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    cursor: pointer;
 }
 
 .hideElement {
@@ -40,6 +61,8 @@ header {
     background-color: var(--headerBackgroundColor);
     color: var(--headerTextColor);
     padding: 1em 0.5em;
+    border-bottom-left-radius: var(--headerBorderRadius);
+    border-bottom-RIGHT-radius: var(--headerBorderRadius);
 }
 
 header h1 {
@@ -56,17 +79,17 @@ header label {
     background-size: 100% 100%;
     width: 2em;
     height: 2em;
+    cursor: pointer;
 }
 
 /* AREA MENU */
 
 header nav#areaMenu {
-    position: sticky;
-    display: none;
     flex-basis: 100%;
     text-align: center;
     border-top: 1px solid var(--borderColor);
     border-bottom: 1px solid var(--borderColor);
+    overflow: hidden;
 }
 
 header nav#areaMenu ul {
@@ -87,11 +110,19 @@ header nav#areaMenu li.currentPage::after {
 }
 
 header input:checked ~ nav#areaMenu {
-    display: block;
+    animation-name: menuOpening;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 header input:checked ~ label {
-    background-image: url("../icons/line-md--menu-to-close-transition_white.svg");
+    background-image: url("../icons/mdi--close-white.svg");
+}
+
+header input:not(:checked) ~ nav#areaMenu {
+    animation-name: menuClosing;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
 }
 
 header nav#areaMenu a {
@@ -147,4 +178,36 @@ main {
     justify-content: center;
     text-align: center;
     padding: 1em;
+    flex: 1;
+}
+
+main img#errorImg {
+    width: 25vw;
+}
+
+main a#errorPageLink {
+    color: var(--mainTextColor);
+    border-bottom: 1px solid var(--mainTextColor);
+}
+
+main a#errorPageLink:visited {
+    color: var(--mainTextColor);
+    border-bottom: 1px solid var(--backgroundColor);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--footerBackgroundColor);
+    text-align: center;
+}
+
+footer p {
+    color: var(--footerTextColor);
+    margin: 0.2em;
+}
+
+footer a {
+    color: var(--footerTextColor);
+    margin: 1em;
 }

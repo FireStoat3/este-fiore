@@ -1,3 +1,20 @@
+:root {
+    --itemBackgroundColor: white;
+    --itemBorderRadius: 20px;
+}
+
+/* ANIMATION */
+
+@keyframes itemOpening {
+  from {max-height: 0}
+  to {max-height: 700px; visibility: visible; padding: 1em;}
+}
+
+@keyframes itemClosing {
+  from {max-height: 700px;}
+  to {max-height: 0px; visibility: hidden; padding: 0em;}
+}
+
 /* MAIN */
 
 main img {
@@ -17,7 +34,8 @@ main ul#placeList li {
     padding: 1em;
     border: 1px solid var(--borderColor);
     margin: 1em 0.5em;
-    border-radius: var(--borderRadius);
+    border-radius: var(--itemBorderRadius);
+    background-color: var(--itemBackgroundColor);
 }
 
 /* PLACE ITEMS */
@@ -28,27 +46,40 @@ main label {
     background-image: url("../icons/mdi--menu-open.svg");
     background-position: 100%;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 main input.placeInput:checked ~ label.placeLabel {
-    background-image: url("../icons/line-md--menu-to-close-transition.svg");
+    background-image: url("../icons/mdi--close.svg");
 }
 
 main input.placeInput:checked ~ div.placeDiv {
-    display: block;
+    animation-name: itemOpening;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+main input.placeInput:not(:checked) ~ div.placeDiv {
+    animation-name: itemClosing;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 /* PLACE DIV */
 
 div.placeDiv {
     text-align: left;
-    padding: 1em;
     flex-basis: 100%;
-    display: none;
+    overflow: hidden;
+    visibility: hidden;
+    max-height: 0;
+    padding: 0;
 }
 
 div.placeDiv img {
+    display: block;
     max-width: 60%;
+    margin: auto;
 }
 
 div.placeDiv a {

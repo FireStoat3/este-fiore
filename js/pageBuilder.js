@@ -48,25 +48,30 @@ const buildMenu = async (areaFile, baseUrl, currentUrl) => {
 }
 
 const buildPlacePage = async (baseUrl, placeFile,areaName,placeName) => {
-    const place = placeFile[areaName][placeName]
-    if (place) {
-        const breadcrumbList = `<li>></li><li><a href="./area.html?area=${areaName}">${areaName}</a></li><li>></li><li>${placeName}</li>`
-        document.body.innerHTML = document.body.innerHTML.replace("{{BREADCRUMB_ITEMS}}", breadcrumbList);
-        document.body.innerHTML = document.body.innerHTML.replace("{{PLACE_TITLE}}", placeName);
-        const sections = Object.keys(place)
-        let placePage = ""
-        sections.forEach((sectionName) => {
-            placePage += `<h3>${sectionName}</h3>`
-            const sectionInfo = place[sectionName]
-            const image = sectionInfo.image
-            if(image) {
-                placePage+= `<img src="${baseUrl}/images/${image}">`
-            }
-            placePage += `<p>${sectionInfo.description}</p>`
-        })
-        document.body.innerHTML = document.body.innerHTML.replace("{{PLACE_CONTENT}}", placePage);
+    const area = placeFile[areaName]
+    if (area!==undefined) {
+        const place = area[placeName]
+        if(place) {
+            const breadcrumbList = `<li>></li><li><a href="./area.html?area=${areaName}">${areaName}</a></li><li>></li><li>${placeName}</li>`
+            document.body.innerHTML = document.body.innerHTML.replace("{{BREADCRUMB_ITEMS}}", breadcrumbList);
+            document.body.innerHTML = document.body.innerHTML.replace("{{PLACE_TITLE}}", placeName);
+            const sections = Object.keys(place)
+            let placePage = ""
+            sections.forEach((sectionName) => {
+                placePage += `<h3>${sectionName}</h3>`
+                const sectionInfo = place[sectionName]
+                const image = sectionInfo.image
+                if(image) {
+                    placePage+= `<img src="${baseUrl}/images/${image}">`
+                }
+                placePage += `<p>${sectionInfo.description}</p>`
+            })
+            document.body.innerHTML = document.body.innerHTML.replace("{{PLACE_CONTENT}}", placePage);
+        } else {
+            window.location.replace(baseUrl+"/pages/404.html")
+        }
     } else {
-        console.log("nope") //TODO redirect to 404
+        window.location.replace(baseUrl+"/pages/404.html")
     }
 }
 
@@ -102,6 +107,6 @@ const buildAreaPage = async (baseUrl,areaFile,areaName) => {
             i+=1
         })
     } else {
-        console.log("nope") //TODO redirect to 404
+        window.location.replace(baseUrl+"/pages/404.html")
     }
 }
