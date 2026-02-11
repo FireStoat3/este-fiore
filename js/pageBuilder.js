@@ -36,13 +36,14 @@ const recoverPlaceFile = async (baseUrl) => {
 
 const buildMenu = async (areaFile, baseUrl, currentUrl) => {
     const keys = Object.keys(areaFile);
+    const repoName=baseUrl.includes("127.0.0.1")?"":"/este-fiore"
     const areaName = currentUrl.includes("area.html")?new URLSearchParams(window.location.search).get("area"):null;
     let list = ""
     await keys.forEach((key)=> {
         if(areaName!=null && currentUrl.includes("place.html")==false && areaName===key) {
             list+=`<li class="currentPage">${key}</li>`
         } else {
-            list+=`<li><a href="${baseUrl}/pages/area.html?area=${key}">${key}</a></li>`
+            list+=`<li><a href="${baseUrl}${repoName}/pages/area.html?area=${key}">${key}</a></li>`
         }
     })
 
