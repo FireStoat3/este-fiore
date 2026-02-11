@@ -19,14 +19,16 @@ window.onload = async () => {
 }
 
 const recoverAreaFile = async (baseUrl) => {
-    const file = await fetch(baseUrl+"/json/area.json").then(async (file)=> {
+    const repoName=baseUrl.includes("127.0.0.1")?"":"/este-fiore"
+    const file = await fetch(baseUrl+repoName+"/json/area.json").then(async (file)=> {
         return await file.json()
     })
     return file
 }
 
 const recoverPlaceFile = async (baseUrl) => {
-    const file = await fetch(baseUrl+"/json/place.json").then(async (file)=> {
+    const repoName=baseUrl.includes("127.0.0.1")?"":"/este-fiore"
+    const file = await fetch(baseUrl+repoName+"/json/place.json").then(async (file)=> {
         return await file.json()
     })
     return file
