@@ -8,13 +8,13 @@ window.onload = async () => {
     if (currentUrl.includes("area.html")) {
         const params = new URLSearchParams(window.location.search);
         const areaName = params.get("area")
-        buildAreaPage(baseUrl,areaFile,areaName)
+        buildAreaPage(areaFile,areaName)
     } else if (currentUrl.includes("place.html")) {
         const placeFile = await recoverPlaceFile(baseUrl)
         const params = new URLSearchParams(window.location.search);
         const areaName = params.get("area")
         const placeName = params.get("place")
-        buildPlacePage(baseUrl,placeFile,areaName,placeName)
+        buildPlacePage(placeFile,areaName,placeName)
     }
 }
 
@@ -49,7 +49,7 @@ const buildMenu = async (areaFile, baseUrl, currentUrl) => {
     document.body.innerHTML = document.body.innerHTML.replace("{{MENU_LINK}}", list);
 }
 
-const buildPlacePage = async (baseUrl, placeFile,areaName,placeName) => {
+const buildPlacePage = async (placeFile,areaName,placeName) => {
     const area = placeFile[areaName]
     if (area!==undefined) {
         const place = area[placeName]
@@ -64,20 +64,20 @@ const buildPlacePage = async (baseUrl, placeFile,areaName,placeName) => {
                 const sectionInfo = place[sectionName]
                 const image = sectionInfo.image
                 if(image) {
-                    placePage+= `<img src="${baseUrl}/images/${image}">`
+                    placePage+= `<img src="../images/${image}">`
                 }
                 placePage += `<p>${sectionInfo.description}</p>`
             })
             document.body.innerHTML = document.body.innerHTML.replace("{{PLACE_CONTENT}}", placePage);
         } else {
-            window.location.replace(baseUrl+"/pages/404.html")
+            window.location.replace("./404.html")
         }
     } else {
-        window.location.replace(baseUrl+"/pages/404.html")
+        window.location.replace("./404.html")
     }
 }
 
-const buildAreaPage = async (baseUrl,areaFile,areaName) => {
+const buildAreaPage = async (areaFile,areaName) => {
     const area = areaFile[areaName]
     if (area) {
         const breadcrumbList = `<li>></li><li>${areaName}</li>`
@@ -96,7 +96,7 @@ const buildAreaPage = async (baseUrl,areaFile,areaName) => {
                 <div class="placeDiv" id="place${i}Div" role="alert">
                     <img alt="placeholder" src="../images/${currentPlace["image"]}">
                     <p>${currentPlace["description"]}</p>
-                    <a href="${baseUrl}/pages/place.html?area=${areaName}&place=${placeName}">Visualizza dettagli</a>
+                    <a href="./place.html?area=${areaName}&place=${placeName}">Visualizza dettagli</a>
                 </div>
             </li>`;
             i+=1
@@ -109,6 +109,6 @@ const buildAreaPage = async (baseUrl,areaFile,areaName) => {
             i+=1
         })
     } else {
-        window.location.replace(baseUrl+"/pages/404.html")
+        window.location.replace("./404.html")
     }
 }
