@@ -99,6 +99,7 @@ header nav#areaMenu ul {
 
 header nav#areaMenu li {
     list-style-type: none;
+    margin: 1em;
 }
 
 header nav#areaMenu li.currentPage::before {
