@@ -1,9 +1,9 @@
 {
-    "Area1": {
+    "Area 1": {
         "image": "placeholder.svg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?",
         "places": {
-            "luogo1": {
+            "luogo 1": {
             "image": "placeholder.svg",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             },

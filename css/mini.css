@@ -1,0 +1,15 @@
+/* HEADER */
+
+header nav#breadcrumb {
+    flex-direction: column;
+}
+
+header nav#breadcrumb ul {
+    padding-left: 0em;
+}
+
+/* AREA */
+
+div.placeDiv img {
+    max-width: 100%;
+}

@@ -1,0 +1,29 @@
+/* GENERAL */
+
+body {
+    align-items: center;
+}
+
+header {
+    width: 90vw;
+    max-width: 1220px;
+    border-radius: var(--headerBorderRadius);
+    margin-top: 1.2em;
+    padding: 1em;
+}
+
+main {
+    width: 50vw;
+    max-width: 910px;
+}
+
+footer {
+    width: 100vw
+}
+
+/* AREA */
+
+main ul#placeList {
+    width: 70vw;
+    max-width: 910px;
+}

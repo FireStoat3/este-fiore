@@ -27,6 +27,7 @@ html {
     overflow-x: hidden;
     scrollbar-width: thin;
     background-color: var(--backgroundColor);
+    font-family: sans-serif;
 }
 
 html, body {
@@ -155,7 +156,7 @@ header nav#breadcrumb ul {
 header nav#breadcrumb li {
     display: inline-block;
     list-style-type: none;
-    padding-left: 0.5em;
+    padding: 0em 0.2em 0em 0.2em;
 }
 
 header nav#breadcrumb a {
