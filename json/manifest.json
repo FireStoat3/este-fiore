@@ -1,0 +1,15 @@
+{
+  "short_name": "Il Laboratorio delle Idee di Este",
+  "name": "Este in Fiore de Il Laboratorio delle Idee di Este",
+  "icons": [
+    {
+      "src": "./../images/manifest-icon.svg",
+      "sizes": "144x144",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": "./../index.html",
+  "display": "standalone",
+  "theme_color": "#721121",
+  "background_color": "white"
+}
