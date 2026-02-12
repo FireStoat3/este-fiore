@@ -94,9 +94,9 @@ const buildAreaPage = async (areaFile,areaName) => {
             placeList+=`<li>
                 <input type="checkbox" id="place${i}" class="hideElement placeInput">
                 <label class="placeLabel" for="place${i}" id="place${i}Label">${placeName}</label>
-                <div class="placeDiv" id="place${i}Div" role="alert">
-                    <img alt="placeholder" src="../images/${currentPlace["image"]}">
-                    <p>${currentPlace["description"]}</p>
+                <div class="placeDiv" id="place${i}Div" role="alert">`
+            placeList+=currentPlace["image"]!=null?`<img alt="Foto di ${placeName} in ${areaName}" src="../images/${currentPlace["image"]}">`:""
+            placeList+=`<p>${currentPlace["description"]}</p>
                     <a href="./place.html?area=${areaName}&place=${placeName}">Visualizza dettagli</a>
                 </div>
             </li>`;
