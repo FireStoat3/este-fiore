@@ -21,6 +21,11 @@ main img {
     max-width: 100%;
 }
 
+main blockquote {
+    text-align: center;
+    font-style: italic;
+}
+
 main ul#placeList {
     width: 100vw;
     padding: 0;
@@ -36,6 +41,22 @@ main ul#placeList li {
     margin: 1em 0.5em;
     border-radius: var(--itemBorderRadius);
     background-color: var(--itemBackgroundColor);
+}
+
+main ul#placeList li label {
+    font-weight: bold;
+}
+
+main ul#placeList a {
+    text-align: center;
+    display: initial;
+    color: var(--mainTextColor);
+    border-bottom: 1px solid var(--mainTextColor)
+}
+ì
+main ul#placeList a:visited {
+    color: var(--mainTextColor);
+    border-bottom: 1px solid var(--itemBackgroundColor)
 }
 
 /* PLACE ITEMS */
@@ -82,7 +103,9 @@ div.placeDiv img {
     margin: auto;
 }
 
-div.placeDiv a {
+main ul#placeList div.placeDiv a.viewAdditionalInfoLink {
     display: block;
     text-align: center;
+    max-width: 8.5em;
+    margin: auto;
 }

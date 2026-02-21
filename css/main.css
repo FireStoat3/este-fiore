@@ -197,6 +197,16 @@ main a#errorPageLink:visited {
     border-bottom: 1px solid var(--backgroundColor);
 }
 
+main a {
+    color: var(--mainTextColor);
+    border-bottom: 1px solid var(--mainTextColor)
+}
+
+main a:visited {
+    color: var(--mainTextColor);
+    border-bottom: 1px solid var(--backgroundColor)
+}
+
 /* FOOTER */
 
 footer {

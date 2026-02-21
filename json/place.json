@@ -1,45 +1,72 @@
 {
-    "Area 1": {
-        "luogo 1": {
-            "section1": {
-                "image": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+    "Sito religioso": {
+        "Il Duomo di Santa Tecla": {
+            "L'Architettura": {
+                "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Santa_Tecla%2C_facade_%282%29_%28Este%29_%28cropped%29.JPG",
+            "placeExtImg": true,
+            "placeImageDescription": "<a href=\"https://commons.wikimedia.org/wiki/File:Santa_Tecla,_facade_(2)_(Este)_(cropped).JPG\">Threecharlie</a> <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> via Wikimedia Commons",
+            "placeImageDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Santa_Tecla,_facade_(2)_(Este)_(cropped).JPG",
+                "description": "L'attuale struttura settecentesca ha una pianta ellittica molto particolare, che regala un senso di ampiezza e luce appena si varca la soglia."
             },
-            "section2": {
-                "image": "placeholder.svg",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+            "Il Capolavoro di Tiepolo": {
+                "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Santa_Tecla_libera_Este_dalla_pestilenza_-_Tiepolo.jpg",
+                "placeExtImg": true,
+                "placeImageDescription": "<a href=\"https://commons.wikimedia.org/wiki/File:Santa_Tecla_libera_Este_dalla_pestilenza_-_Tiepolo.jpg\">Giambattista Tiepolo - Este (Padova), Duomo</a>, Pubblico dominio, via Wikimedia Commons",
+                "placeImageDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Santa_Tecla_libera_Este_dalla_pestilenza_-_Tiepolo.jpg",
+                "description": "Il vero tesoro del Duomo è la grandiosa pala d'altare di <strong>Giambattista Tiepolo</strong>, intitolata Santa Tecla intercede presso l'Eterno Padre per la liberazione di Este dalla peste del 1630. È considerata uno dei vertici della pittura del Settecento europeo."
             },
-            "section3": {
+            "Il Corpo della Beata Beatrice": {
                 "image": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
+                "description": "All'interno è custodito il corpo incorrotto della Beata Beatrice I d’Este, figura centrale per la devozione locale."
             }
         },
-        "luogo2": {
-            "section1": {
-                "image": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+        "Basilica di Santa Maria delle Grazie": {
+            "L'Origine e l'Icona": {
+                "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Basilica_di_Santa_Maria_delle_Grazie_%28Este%29_01.jpg",
+                "placeExtImg": true,
+                "placeImageDescription": "<a href=\"https://commons.wikimedia.org/wiki/File:Basilica_di_Santa_Maria_delle_Grazie_(Este)_01.jpg\">Threecharlie</a> <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a> via Wikimedia Commons",
+                "placeImageDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Basilica_di_Santa_Maria_delle_Grazie_(Este)_01.jpg",
+                "description": " La basilica fu costruita per ospitare un'immagine della Madonna con il Bambino, un'icona di scuola bizantina (nota come la <i>Madonna delle Grazie</i>) che fu donata alla città nel XV secolo. Secondo la tradizione, l'immagine arrivò a Este dopo la caduta di Costantinopoli (1453)."
             },
-            "section2": {
-                "image": "placeholder.svg",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
-            },
-            "section3": {
+            "L'Architettura": {
                 "image": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
+                "description": "L'edificio che vediamo oggi è frutto di una ricostruzione settecentesca. Ha una pianta a croce latina con una cupola che domina l'area. L'interno è barocco, ricco di marmi e decorazioni che convergono verso l'altare maggiore, dove è custodita la preziosa icona."
+            },
+            "Curiosità": {
+                "image": null,
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
+                "description": "La chiesa è stata elevata a <strong>Basilica Minore</strong> dal Papa nel 1924, a testimonianza della sua rilevanza come centro di pellegrinaggio. Ogni anno, a febbraio, si celebra una festa molto sentita che ricorda la protezione della Vergine sulla città."
             }
         },
-        "luogo3": {
-            "section1": {
+        "Chiesa di San Martino": {
+            "Il Campanile Pendente": {
                 "image": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
+                "description": "È l'elemento più celebre. A causa del cedimento del terreno (un fenomeno comune in alcune zone del Veneto vicino ai corsi d'acqua), il campanile di San Martino presenta una pendenza molto accentuata. È un vero e proprio \"sopravvissuto\" che regala una silhouette unica al profilo della città."
             },
-            "section2": {
-                "image": "placeholder.svg",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+            "La Chiesa più Antica": {
+                "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Chiesa_di_San_Martino%2C_facciata_%28Este%29_01.jpg",
+                "placeExtImg": true,
+                "placeImageDescription": "<a href=\"https://commons.wikimedia.org/wiki/File:Chiesa_di_San_Martino,_facciata_(Este)_01.jpg\">Threecharlie</a> <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a> via Wikimedia Commons",
+                "placeImageDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Chiesa_di_San_Martino,_facciata_(Este)_01.jpg",
+                "description": "San Martino è considerata la chiesa più vecchia di Este. Le sue origini risalgono all'epoca altomedievale, anche se l'aspetto attuale è il risultato di vari rifacimenti, in particolare quello del XVII secolo."
             },
-            "section3": {
+            "L'Interno": {
                 "image": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
+                "description": "Nonostante sia meno sfarzosa del Duomo, conserva un'atmosfera di sobria eleganza. All'interno si possono ammirare opere di pregio, tra cui pale d'altare di autori locali e una struttura che richiama la tradizione delle antiche pievi venete."
             }
         }
     },
@@ -47,42 +74,69 @@
         "luogo1": {
             "section1": {
                 "image": "placeholder.svg",
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             },
             "section2": {
                 "image": null,
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             },
             "section3": {
                 "image": null,
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             }
         },
         "luogo2": {
             "section1": {
                 "image": "placeholder.svg",
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             },
             "section2": {
                 "image": null,
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             },
             "section3": {
                 "image": null,
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             }
         },
         "luogo3": {
             "section1": {
                 "image": "placeholder.svg",
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             },
             "section2": {
                 "image": null,
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             },
             "section3": {
                 "image": null,
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             }
         }
@@ -90,43 +144,69 @@
     "Area3": {
         "luogo1": {
             "section1": {
-                "image": null,
+                "image": null,"placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             },
             "section2": {
                 "image": null,
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             },
             "section3": {
                 "image": "placeholder.svg",
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             }
         },
         "luogo2": {
             "section1": {
                 "image": null,
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             },
             "section2": {
                 "image": null,
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             },
             "section3": {
                 "image": "placeholder.svg",
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             }
         },
         "luogo3": {
             "section1": {
                 "image": null,
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             },
             "section2": {
                 "image": null,
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             },
             "section3": {
                 "image": "placeholder.svg",
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             }
         }

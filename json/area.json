@@ -1,54 +1,90 @@
 {
-    "Area 1": {
-        "image": "placeholder.svg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?",
+    "Sito religioso": {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Este_veduta.jpg",
+        "areaExtImage": true,
+        "areaImageDescription": "<a href=\"https://commons.wikimedia.org/wiki/File:Este_veduta.jpg\">Alessandro Vecchi</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons",
+        "areaImageDescriptionUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Este_veduta.jpg",
+        "description": "Este è una perla dei Colli Euganei e il suo legame con il sacro è antico quanto la sua storia millenaria. Sebbene tutta la cittadina sia costellata di capitelli e piccole chiese, il cuore pulsante della sua spiritualità sono senza dubbio i tre luoghi di culto che primeggiano nel centro storico.",
         "places": {
-            "luogo 1": {
-            "image": "placeholder.svg",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+            "Il Duomo di Santa Tecla": {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Santa_Tecla%2C_facade_%282%29_%28Este%29_%28cropped%29.JPG",
+            "placeExtImg": true,
+            "placeImageDescription": "<a href=\"https://commons.wikimedia.org/wiki/File:Santa_Tecla,_facade_(2)_(Este)_(cropped).JPG\">Threecharlie</a> <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> via Wikimedia Commons",
+            "placeImageDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Santa_Tecla,_facade_(2)_(Este)_(cropped).JPG",
+            "description": "È l'edificio religioso più importante della città. Sorge sulle rovine di un’antichissima chiesa paleocristiana (distrutta da un terremoto nel 1117) e di una successiva collegiata gotica."
             },
-            "luogo2": {
-                "image": "placeholder.svg",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+            "Basilica di Santa Maria delle Grazie": {
+                "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Basilica_di_Santa_Maria_delle_Grazie_%28Este%29_01.jpg",
+                "placeExtImg": true,
+                "placeImageDescription": "<a href=\"https://commons.wikimedia.org/wiki/File:Basilica_di_Santa_Maria_delle_Grazie_(Este)_01.jpg\">Threecharlie</a> <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a> via Wikimedia Commons",
+                "placeImageDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Basilica_di_Santa_Maria_delle_Grazie_(Este)_01.jpg",
+                "description": "Questa chiesa è un punto di riferimento spirituale fondamentale per tutto il territorio estense. La sua importanza non è solo architettonica, ma risiede nel profondo legame affettivo con la cittadinanza."
             },
-            "luogo3": {
-                "image": "placeholder.svg",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+            "Chiesa di San Martino": {
+                "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Chiesa_di_San_Martino%2C_facciata_%28Este%29_01.jpg",
+                "placeExtImg": true,
+                "placeImageDescription": "<a href=\"https://commons.wikimedia.org/wiki/File:Chiesa_di_San_Martino,_facciata_(Este)_01.jpg\">Threecharlie</a> <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a> via Wikimedia Commons",
+                "placeImageDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Chiesa_di_San_Martino,_facciata_(Este)_01.jpg",
+                "description": "Alla scoperta della Chiesa di San Martino..."
             }
         }
     },
     "Area2": {
         "image": "placeholder.svg",
+        "areaExtImage": false,
+        "areaImageDescription": null,
+        "areaImageDescriptionUrl": null,
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?",
         "places": {
             "luogo1": {
             "image": "placeholder.svg",
+            "placeExtImg": false,
+            "placeImageDescription": null,
+            "placeImageDescriptionUrl": null,
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             },
             "luogo2": {
                 "image": "placeholder.svg",
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             },
             "luogo3": {
                 "image": "placeholder.svg",
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             }
         }
     },
     "Area3": {
         "image": "placeholder.svg",
+        "areaExtImage": false,
+        "areaImageDescription": null,
+        "areaImageDescriptionUrl": null,
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?",
         "places": {
             "luogo1": {
             "image": "placeholder.svg",
+            "placeExtImg": false,
+            "placeImageDescription": null,
+            "placeImageDescriptionUrl": null,
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             },
             "luogo2": {
                 "image": "placeholder.svg",
+                "placeImageDescription": null,
+                "placeExtImg": false,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             },
             "luogo3": {
                 "image": "placeholder.svg",
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
             }
         }

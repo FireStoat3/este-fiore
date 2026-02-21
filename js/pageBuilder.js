@@ -65,7 +65,14 @@ const buildPlacePage = async (placeFile,areaName,placeName) => {
                 const sectionInfo = place[sectionName]
                 const image = sectionInfo.image
                 if(image) {
-                    placePage+= `<img src="../images/${image}">`
+                    const placeExtImg = sectionInfo.placeExtImg
+                    console.log(placeExtImg)
+                    placePage+= `<img src="${placeExtImg?image:`../images/${image}`}">`
+                    const placeImageDescription = sectionInfo.placeImageDescription
+                    if(placeImageDescription) {
+                        const placeImageDescriptionUrl = sectionInfo.placeImageDescriptionUrl
+                        placePage+=`<blockquote ${placeImageDescriptionUrl?`cite="${placeImageDescriptionUrl}"`:""}>${placeImageDescription}</blockquote>`
+                    } 
                 }
                 placePage += `<p>${sectionInfo.description}</p>`
             })
@@ -84,7 +91,17 @@ const buildAreaPage = async (areaFile,areaName) => {
         const breadcrumbList = `<li>></li><li>${areaName}</li>`
         document.body.innerHTML = document.body.innerHTML.replace("{{BREADCRUMB_ITEMS}}", breadcrumbList);
         document.body.innerHTML = document.body.innerHTML.replace("{{AREA_TITLE}}", areaName);
-        document.body.innerHTML = document.body.innerHTML.replace("{{AREA_IMAGE}}", area["image"]);
+        const areaImage = area["image"]
+        const areaExtImage = area["areaExtImage"]
+        const areaImgString = `<img src="${areaExtImage?areaImage:`../images/${areaImage}`}">`
+        document.body.innerHTML = document.body.innerHTML.replace("{{AREA_IMAGE}}", areaImgString);
+        const areaImageDescription = area["areaImageDescription"]
+        const areaImageDescriptionUrl = area["areaImageDescriptionUrl"]
+        if (areaImageDescription) {
+            document.body.innerHTML = document.body.innerHTML.replace("{{AREA_IMAGE_CITE}}", `<blockquote ${areaImageDescriptionUrl!=null?`cite=${areaImageDescriptionUrl}`:""}>`+areaImageDescription+"</blockquote>");
+        } else {
+            document.body.innerHTML = document.body.innerHTML.replace("{{AREA_IMAGE_CITE}}","")
+        }
         document.body.innerHTML = document.body.innerHTML.replace("{{AREA_DESCRIPTION}}", area["description"]);
         const areaPlaces = Object.keys(area["places"])
         let placeList = ""
@@ -95,9 +112,14 @@ const buildAreaPage = async (areaFile,areaName) => {
                 <input type="checkbox" id="place${i}" class="hideElement placeInput">
                 <label class="placeLabel" for="place${i}" id="place${i}Label">${placeName}</label>
                 <div class="placeDiv" id="place${i}Div" role="alert">`
-            placeList+=currentPlace["image"]!=null?`<img alt="Foto di ${placeName} in ${areaName}" src="../images/${currentPlace["image"]}">`:""
+            const image = currentPlace["image"]
+            const placeExtImg = currentPlace["placeExtImg"]
+            placeList+=image!=null?`<img alt="Foto di ${placeName} in ${areaName}" src="${placeExtImg?image:`../images/${image}`}">`:""
+            const placeImageDescription = currentPlace["placeImageDescription"]
+            const placeImageDescriptionUrl = currentPlace["placeImageDescriptionUrl"] 
+            placeList+=placeImageDescription!=null?`<blockquote ${placeImageDescriptionUrl!=null?`cite=${placeImageDescriptionUrl}`:""}>${placeImageDescription}</blockquote>`:""
             placeList+=`<p>${currentPlace["description"]}</p>
-                    <a href="./place.html?area=${areaName}&place=${placeName}">Visualizza dettagli</a>
+                    <a class="viewAdditionalInfoLink" href="./place.html?area=${areaName}&place=${placeName}">Visualizza dettagli</a>
                 </div>
             </li>`;
             i+=1
