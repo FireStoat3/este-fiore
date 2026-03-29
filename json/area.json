@@ -29,63 +29,63 @@
             }
         }
     },
-    "Area2": {
-        "image": "placeholder.svg",
-        "areaExtImage": false,
-        "areaImageDescription": null,
-        "areaImageDescriptionUrl": null,
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?",
+    "Sito archeologico": {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Rocca_di_Ponte_di_Torre%2C_Este.jpg",
+        "areaExtImage": true,
+        "areaImageDescription": "<a href=\"https://commons.wikimedia.org/wiki/File:Rocca_di_Ponte_di_Torre,_Este.jpg\">Pivari.com</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+        "areaImageDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Rocca_di_Ponte_di_Torre,_Este.jpg",
+        "description": "La città di Este rappresenta uno dei centri più importanti per la conoscenza della civiltà dei Paleoveneti e della successiva romanizzazione dell’Italia nord-orientale. Grazie alle numerose scoperte archeologiche, è possibile ricostruire l’evoluzione del territorio dall’età preromana fino all’epoca romana. In particolare, l’area archeologica di via Santo Stefano, il Museo Nazionale Atestino e i resti di via Arco testimoniano la continuità di vita e trasformazione della città nel corso dei secoli.",
         "places": {
-            "luogo1": {
-            "image": "placeholder.svg",
+            "L'area archeologica di Via Santo Stefano": {
+            "image": null,
             "placeExtImg": false,
             "placeImageDescription": null,
             "placeImageDescriptionUrl": null,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+            "description": "L’area archeologica di via Santo Stefano costituisce una delle più importanti testimonianze della civiltà paleoveneta."
             },
-            "luogo2": {
-                "image": "placeholder.svg",
+            "Il Museo Nazionale Atestino": {
+                "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Museo_Nazionale_Atestino_-_Este.jpg",
+                "placeExtImg": true,
+                "placeImageDescription": "<a href=\"https://commons.wikimedia.org/wiki/File:Museo_Nazionale_Atestino_-_Este.jpg\">NicoMatt89</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons",
+                "placeImageDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Museo_Nazionale_Atestino_-_Este.jpg",
+                "description": "Il Museo Nazionale Atestino conserva e valorizza i reperti provenienti dagli scavi archeologici del territorio."
+            },
+            "I resti di via Arco e la città romana": {
+                "image": null,
                 "placeExtImg": false,
                 "placeImageDescription": null,
                 "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
-            },
-            "luogo3": {
-                "image": "placeholder.svg",
-                "placeExtImg": false,
-                "placeImageDescription": null,
-                "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+                "description": "L’area di via Arco, situata nel centro di Este, rappresenta una delle principali testimonianze della fase romana della città."
             }
         }
     },
-    "Area3": {
-        "image": "placeholder.svg",
-        "areaExtImage": false,
-        "areaImageDescription": null,
-        "areaImageDescriptionUrl": null,
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?",
+    "Sito sociale": {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Este_piazza_Maggiore.jpg",
+        "areaExtImage": true,
+        "areaImageDescription": "<a href=\"https://commons.wikimedia.org/wiki/File:Este_piazza_Maggiore.jpg\">Wwikiwalter</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+        "areaImageDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Este_piazza_Maggiore.jpg",
+        "description": "Nel corso dell’età moderna e contemporanea, Este non è stata solo un centro ricco di storia antica, ma anche un importante luogo di incontro e vita sociale. La città ha sviluppato spazi dedicati alla cultura, all’educazione e all’aggregazione, frequentati da cittadini di diverse classi sociali. Tra questi, il Gabinetto di Lettura, il Patronato Redentore e Villa Benvenuti rappresentano esempi significativi di come la comunità estense abbia costruito nel tempo luoghi per la condivisione, la formazione e il tempo libero.",
         "places": {
-            "luogo1": {
-            "image": "placeholder.svg",
-            "placeExtImg": false,
-            "placeImageDescription": null,
-            "placeImageDescriptionUrl": null,
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+            "Il Gabinetto di Lettura": {
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Este_-_Palazzo_Scaligero_del_Capitano.jpg",
+            "placeExtImg": true,
+            "placeImageDescription": "<a href=\"https://commons.wikimedia.org/wiki/File:Este_-_Palazzo_Scaligero_del_Capitano.jpg\">Riccardo Speziari (RicciSpeziari)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons",
+            "placeImageDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Este_-_Palazzo_Scaligero_del_Capitano.jpg",
+            "description": "Il Gabinetto di Lettura di Este è uno dei principali centri culturali della città, nato con l’obiettivo di promuovere la lettura e la diffusione del sapere."
             },
-            "luogo2": {
-                "image": "placeholder.svg",
+            "Patronato Redentore": {
+                "image": null,
                 "placeImageDescription": null,
                 "placeExtImg": false,
                 "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+                "description": "Il Patronato Redentore di Este è uno dei principali luoghi di aggregazione della città di Este, legato alla tradizione educativa e sociale della Chiesa."
             },
-            "luogo3": {
-                "image": "placeholder.svg",
-                "placeExtImg": false,
-                "placeImageDescription": null,
-                "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+            "Villa Benvenuti": {
+                "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Arco_del_Falconetto_Este_marzo_2022_n01.jpg",
+                "placeExtImg": true,
+                "placeImageDescription": "<a href=\"https://commons.wikimedia.org/wiki/File:Arco_del_Falconetto_Este_marzo_2022_n01.jpg\">Marco Chemello (WMIT)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+                "placeImageDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Arco_del_Falconetto_Este_marzo_2022_n01.jpg",
+                "description": "La Villa Benvenuti è una delle dimore storiche più significative di Este, legata alla famiglia Benvenuti, protagonista della vita culturale e sociale cittadina tra Settecento e Ottocento."
             }
         }
     }

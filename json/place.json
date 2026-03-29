@@ -70,144 +70,124 @@
             }
         }
     },
-    "Area2": {
-        "luogo1": {
-            "section1": {
-                "image": "placeholder.svg",
-                "placeExtImg": false,
-                "placeImageDescription": null,
-                "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
-            },
-            "section2": {
+    "Sito archeologico": {
+        "L'area archeologica di Via Santo Stefano": {
+            "Introduzione": {
                 "image": null,
                 "placeExtImg": false,
                 "placeImageDescription": null,
                 "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+                "description": "L’area archeologica di via Santo Stefano costituisce una delle più importanti testimonianze della civiltà paleoveneta. Si tratta di una vasta necropoli utilizzata per diversi secoli, tra l’VIII e il II secolo <abbr title=\"avanti Cristo\">a.C.</abbr>, che ha restituito numerose tombe e corredi funerari."
             },
-            "section3": {
+            "Sepolture": {
                 "image": null,
                 "placeExtImg": false,
                 "placeImageDescription": null,
                 "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+                "description": "Le sepolture, prevalentemente a cremazione, erano organizzate in nuclei familiari e spesso delimitate da strutture in pietra. Nel corso del tempo si osserva un’evoluzione significativa: dalle tombe più semplici si passa a sepolture monumentali, segno della nascita di una società più stratificata. Questo sito offre quindi informazioni fondamentali sui riti funerari, sull’organizzazione sociale e sulle credenze religiose dei Paleoveneti."
             }
         },
-        "luogo2": {
-            "section1": {
-                "image": "placeholder.svg",
-                "placeExtImg": false,
-                "placeImageDescription": null,
-                "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+        "Il Museo Nazionale Atestino": {
+            "Introduzione": {
+                "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Museo_Nazionale_Atestino_-_Este.jpg",
+                "placeExtImg": true,
+                "placeImageDescription": "<a href=\"https://commons.wikimedia.org/wiki/File:Museo_Nazionale_Atestino_-_Este.jpg\">NicoMatt89</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons",
+                "placeImageDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Museo_Nazionale_Atestino_-_Este.jpg",
+                "description": "Il Museo Nazionale Atestino conserva e valorizza i reperti provenienti dagli scavi archeologici del territorio. Situato all’interno di Palazzo Mocenigo, il museo raccoglie migliaia di oggetti che documentano la storia di Este dalla preistoria fino all’età romana."
             },
-            "section2": {
+            "Percorso espositivo": {
                 "image": null,
                 "placeExtImg": false,
                 "placeImageDescription": null,
                 "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+                "description": "Il <strong>percorso espositivo</strong> è organizzato in modo cronologico: particolare rilievo è dato alla sezione paleoveneta, con ricchi corredi funerari, oggetti d’uso quotidiano e testimonianze artistiche. La sezione romana, invece, illustra la trasformazione della città in un centro integrato nel mondo romano, attraverso reperti architettonici, epigrafi e manufatti."
             },
-            "section3": {
-                "image": null,
-                "placeExtImg": false,
-                "placeImageDescription": null,
-                "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+            "Situla Benvenuti": {
+                "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Situla_veneta.jpg",
+                "placeExtImg": true,
+                "placeImageDescription": "Autore sconosciuto - Situla Benvenuti, Pubblico dominio, via <a href=\"https://commons.wikimedia.org/wiki/File:Situla_veneta.jpg\">Wikimedia Commons</a>",
+                "placeImageDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Situla_veneta.jpg",
+                "description": "La <strong>Situla Benvenuti</strong> è un recipiente in bronzo finemente decorato, risalente all’età paleoveneta e conservato nel Museo Nazionale Atestino. Non era un oggetto d’uso quotidiano, ma aveva una funzione cerimoniale. <br> È decorata con scene incise che raffigurano momenti di vita, come banchetti, processioni e rituali. Queste immagini sono molto importanti perché permettono di conoscere la società, le tradizioni e l’organizzazione dei Paleoveneti."
             }
         },
-        "luogo3": {
-            "section1": {
-                "image": "placeholder.svg",
-                "placeExtImg": false,
-                "placeImageDescription": null,
-                "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
-            },
-            "section2": {
+        "I resti di via Arco e la città romana": {
+            "Introduzione": {
                 "image": null,
                 "placeExtImg": false,
                 "placeImageDescription": null,
                 "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+                "description": "L’area di via Arco, situata nel centro di Este, rappresenta una delle principali testimonianze della fase romana della città, nota in antico come <strong>Ateste</strong>. Qui gli scavi archeologici hanno portato alla luce resti che permettono di ricostruire l’organizzazione urbana e la vita quotidiana in epoca romana."
             },
-            "section3": {
+            "Rinvenimenti": {
                 "image": null,
                 "placeExtImg": false,
                 "placeImageDescription": null,
                 "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+                "description": "Sono stati rinvenuti tratti di edifici, probabilmente abitazioni (<span lang=\"la\"><em>domus</em></span>), insieme a strutture murarie e pavimentazioni che testimoniano un tessuto urbano ben organizzato. La presenza di strade e spazi costruiti indica che la città era inserita nella rete romana, con una pianificazione regolare e funzionale."
+            },
+            "Cambiamenti significativi": {
+                "image": null,
+                "placeExtImg": false,
+                "placeImageDescription": null,
+                "placeImageDescriptionUrl": null,
+                "description": "Questi resti mostrano chiaramente il processo di romanizzazione: Este, da centro paleoveneto, si trasforma progressivamente in una città romana, adottando modelli architettonici, urbanistici e culturali tipici di Roma. Tuttavia, alcuni elementi suggeriscono una continuità con il passato, segno che la trasformazione non fu improvvisa ma graduale."
             }
         }
     },
-    "Area3": {
-        "luogo1": {
-            "section1": {
-                "image": null,"placeExtImg": false,
-                "placeImageDescription": null,
-                "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+    "Sito sociale": {
+        "Il Gabinetto di Lettura": {
+            "Introduzione": {
+                "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Este_-_Palazzo_Scaligero_del_Capitano.jpg",
+                "placeExtImg": true,
+                "placeImageDescription": "<a href=\"https://commons.wikimedia.org/wiki/File:Este_-_Palazzo_Scaligero_del_Capitano.jpg\">Riccardo Speziari (RicciSpeziari)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons",
+                "placeImageDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Este_-_Palazzo_Scaligero_del_Capitano.jpg",
+                "description": "Il Gabinetto di Lettura di Este è uno dei principali centri culturali della città, nato con l’obiettivo di promuovere la lettura e la diffusione del sapere. <br> Fin dalla sua fondazione nel 1800, è stato un luogo di ritrovo per la borghesia locale e per gli intellettuali, che vi si incontravano per leggere giornali, discutere di politica e confrontarsi su temi culturali. In un’epoca in cui l’accesso all’informazione non era diffuso come oggi, il Gabinetto di Lettura svolgeva un ruolo fondamentale nella formazione dell’opinione pubblica."
             },
-            "section2": {
+            "Fondazione e diffusione": {
                 "image": null,
                 "placeExtImg": false,
                 "placeImageDescription": null,
                 "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+                "description": "Il 14 settembre 1846, ottantadue cittadini di Este, riuniti in assemblea, deliberarono di costituire una associazione con scopo di promuovere la lettura dei libri, periodici e giornali. <br> Lo statuto ottenne l’approvazione del Governo Austriaco nel 1847 e quindi la fondazione è riferita a tale data. <br> Inizialmente, le primissime sedi consistevano in alcune stanze messe a disposizione gratuitamente dal comune, situato nel palazzo municipale. Successivamente, l'istituzione si trasferì nel <strong>Palazzo Balbi Valier</strong>, oggi noto come il <em>\"palazzetto scaligero\"</em>."
             },
-            "section3": {
-                "image": "placeholder.svg",
+            "Successive evoluzioni": {
+                "image": null,
                 "placeExtImg": false,
                 "placeImageDescription": null,
                 "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+                "description": "Nel trecentesco Palazzo Balbi Valier, che è anche la sua sede attuale. Il gabinetto di lettura nato con lo scopo di promuovere la lettura e la cultura locale, organizza concerti, conferenze e dibattiti per i soci e per la cittadinanza e dal 1991 pubblica la rivista <em>\"Terra d'Este\"</em>, dedicata alla storia e alla cultura del territorio estense. La biblioteca offre una Raccolta Estense di pubblicazioni e documenti locali, oltre a una sezione più generale."
             }
         },
-        "luogo2": {
-            "section1": {
+        "Patronato Redentore": {
+            "Storia": {
                 "image": null,
                 "placeExtImg": false,
                 "placeImageDescription": null,
                 "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+                "description": "Il Patronato Redentore di Este è uno dei principali luoghi di aggregazione della città di Este, legato alla tradizione educativa e sociale della Chiesa. <br> Nato tra la fine dell’Ottocento e l’inizio del Novecento, il patronato aveva l’obiettivo di offrire ai giovani un ambiente sicuro e formativo, alternativo alla strada. Qui venivano organizzate attività educative, ricreative e sportive, con l’intento di favorire la crescita personale e morale dei ragazzi."
             },
-            "section2": {
+            "Dal passato ad oggi": {
                 "image": null,
                 "placeExtImg": false,
                 "placeImageDescription": null,
                 "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
-            },
-            "section3": {
-                "image": "placeholder.svg",
-                "placeExtImg": false,
-                "placeImageDescription": null,
-                "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+                "description": "Nel corso del tempo, il Patronato Redentore è diventato un punto di riferimento non solo per i giovani, ma anche per le famiglie e l’intera comunità. Oltre alle attività ludiche, ha promosso momenti di incontro, iniziative culturali e occasioni di socializzazione, contribuendo a rafforzare il senso di appartenenza alla città. <br> Ancora oggi mantiene questo ruolo, rappresentando uno spazio importante di vita comunitaria, dove educazione, svago e relazioni sociali si intrecciano."
             }
         },
-        "luogo3": {
-            "section1": {
+        "Villa Benvenuti": {
+            "Alcuni dettagli storici": {
+                "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Arco_del_Falconetto_Este_marzo_2022_n01.jpg",
+                "placeExtImg": true,
+                "placeImageDescription": "<a href=\"https://commons.wikimedia.org/wiki/File:Arco_del_Falconetto_Este_marzo_2022_n01.jpg\">Marco Chemello (WMIT)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+                "placeImageDescriptionUrl": "https://commons.wikimedia.org/wiki/File:Arco_del_Falconetto_Este_marzo_2022_n01.jpg",
+                "description": "La Villa Benvenuti è una delle dimore storiche più significative di Este, legata alla famiglia Benvenuti, protagonista della vita culturale e sociale cittadina tra Settecento e Ottocento. <br> Si tratta di una villa elegante, tipica delle residenze aristocratiche venete, che in passato ospitava incontri, eventi e momenti di rappresentanza dell’élite locale. Era infatti un importante centro di relazioni sociali e culturali, frequentato da personalità di rilievo."
+            },
+            "La Villa al giorno d'oggi": {
                 "image": null,
                 "placeExtImg": false,
                 "placeImageDescription": null,
                 "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
-            },
-            "section2": {
-                "image": null,
-                "placeExtImg": false,
-                "placeImageDescription": null,
-                "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
-            },
-            "section3": {
-                "image": "placeholder.svg",
-                "placeExtImg": false,
-                "placeImageDescription": null,
-                "placeImageDescriptionUrl": null,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia earum facere ab recusandae ad repellendus ipsam, eligendi esse harum eius perspiciatis consequatur a quo exercitationem quae nihil minus nesciunt?"
+                "description": "Oggi la villa ha mantenuto una funzione sociale, ma in forma diversa: è infatti utilizzata anche da gruppi scout, diventando uno spazio educativo e di aggregazione per i giovani. In questo modo, Villa Benvenuti continua a essere un luogo vivo della comunità, passando da simbolo della socialità aristocratica a punto di riferimento per attività giovanili e formative."
             }
         }
     }
